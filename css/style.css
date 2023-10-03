@@ -1,0 +1,46 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,200&display=swap');
+
+
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 0, 0.4);
+}
+
+#banner img {
+    width: 100%;
+    height: auto;
+}
+
+#fistcall {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 0, 0.4);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#fistcall p {
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: #f75604;
+}
+
+#fistcall button {
+    margin-bottom: 20px;
+    width: 220px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-top: 10px;
+}
